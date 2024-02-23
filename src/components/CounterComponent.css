@@ -1,0 +1,305 @@
+.maincontent{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.intro{
+  position: absolute;
+  width: 466px;
+  height: 44px;
+  border-radius: 25.5px;
+  background: #002956;
+  margin-left: 50%; 
+  transform: translateX(-50%); 
+  text-align: center;
+}
+
+.i-box{
+  
+  width: 411px;
+  height: 28px;
+  left: 50%;
+}
+
+.i-text{
+
+  font-family: 'Pretendard-Regular';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+  text-align: center;
+ 
+
+  margin-top: 8px;
+}
+
+
+
+.y-box{
+  position: absolute;
+  width: 131px;
+  height: 126px;
+  top: 80px;
+  margin-left: 75%; 
+  transform: translateX(-75%); 
+  
+  
+}
+
+.s-box{
+  position: absolute;
+  width: 240px;
+  height: 126px;
+  top: 80px;
+  margin-left: 50%; 
+  transform: translateX(-50%); 
+
+  
+  
+}
+
+
+
+.u-box{
+  position: absolute;
+  width: 186px;
+  height: 126px;
+  top: 80px;
+  margin-left: 25%; 
+  transform: translateX(-25%); 
+  
+
+}
+.intro-text{
+  font-family: 'Pretendard-Regular';
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color:#002956;
+
+}
+.intro-text2{
+  font-family: 'Pretendard-Regular';
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color:#002956;
+
+}
+.intro-text3{
+  font-family: 'Pretendard-Regular';
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color:#002956;
+
+}
+
+.num-box{
+  width: 109px;
+  height: 72px;
+  left: 347px;
+  
+}
+
+.num{
+  position: relative;
+  margin-top: -5px;
+  font-family: 'Pretendard-Regular';
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #002956;
+  
+
+
+}
+
+
+.bar1{
+  width: 20px;
+  margin-left: 52px;
+  border: 3px;
+  background: #002956;
+  border: 2px solid #002956;
+}
+
+.bar2{
+  
+  width: 20px;
+
+  margin-left: 100px;
+  border: 3px;
+  background: #002956;
+  border: 2px solid #002956;
+
+}
+.bar3{
+  
+  width: 20px;
+  
+  margin-left: 80px;
+  border: 3px;
+  background: #002956;
+  border: 2px solid #002956;
+
+}
+
+@media (max-width: 767px) {
+  .maincontent {
+    position: relative;
+    
+    background-color: #ffffff;
+    height: 400px;
+
+    margin-top: -30%;
+  }
+
+  .count-box {
+    display: flex; 
+    position: relative;
+    height: 300px;
+  }
+
+  .intro {
+    position: relative;
+    top: 20px;
+    width:240px;
+    margin-left: 15px;
+    background-color: #FFFFFF;
+  }
+  .i-box{
+  
+    position: relative;
+    
+  }
+  
+  .i-text{
+  font-family: 'Pretendard-Regular';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#002956;
+  }
+  .i-text::after{
+    content: " 대학";
+    white-space: pre;
+    }
+    .i-text span::before{
+      content: "\A";
+      white-space: pre;
+      }
+  .u-box {
+    top:90%
+    
+  }
+
+  .s-box{
+    top:50%;
+  }
+  .y-box{
+    top:13%;
+  }
+  .y-box,
+  .s-box,
+  .u-box {
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+  }
+
+  .intro-text {
+    font-family: 'Pretendard-Regular';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 20px;
+    color:#002956;
+  
+  }
+  .intro-text2 {
+    font-family: 'Pretendard-Regular';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    letter-spacing: 0em;
+    margin-left: 20px;
+    color:#002956;
+   
+  }
+  .intro-text3 {
+    font-family: 'Pretendard-Regular';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 20px;
+  color:#002956;
+
+  }
+  .bar1{
+  position: relative;
+  width: 324px;
+  
+  margin: 0;
+  border: 1px solid #D6D6D6;
+  background: #D6D6D6;
+
+  
+
+  }
+  .bar2{
+    position: relative;
+    width: 324px;
+    
+    margin: 0;
+    border: 1px solid #D6D6D6;
+    background: #D6D6D6;
+  
+    
+  
+    }
+  .bar3{
+      position: relative;
+      width: 324px;
+      margin: 0;
+      border: 1px solid #D6D6D6;
+      background: #D6D6D6;
+    
+      
+    
+      }
+
+  .num {
+    position: relative;
+    font-family: 'Pretendard-Regular';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    top:30px;
+    
+    
+  
+  }
+}

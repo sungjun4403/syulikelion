@@ -1,0 +1,29 @@
+#RecruitFooterWrap{
+	position: relative;
+}
+#RecruitFooter{
+	width: 100%;
+    bottom: 0px;
+	position: absolute;
+	height: 180px;
+	background: #272727;
+	color: #BCBCBC;
+
+	font-family: 'Pretendard-Regular';
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: center;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media (max-width:767px){
+	#RecruitFooter{
+		height: 120px;
+		font-size: 13px;
+	}
+}

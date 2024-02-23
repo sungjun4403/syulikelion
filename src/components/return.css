@@ -1,0 +1,164 @@
+.return-container{
+    display: flex;
+    position: relative;
+    top:400px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 800px;    
+    flex-direction: column;
+    justify-content: center; 
+    
+
+}
+
+.end-box{
+position: relative;
+width: 500px;
+height: 29px;
+margin:20px;
+right: 10px;
+
+
+}
+.end-text{
+
+font-family: 'Pretendard-Bold';
+font-size: 30px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+color: #002956;
+
+
+
+}
+.semi-end-box{
+    margin:30px;
+    position: relative;
+    width: 430px;
+    height: 24px;
+    margin-left: 55px;
+   
+    
+
+}
+.semi-text{
+
+font-family: 'Pretendard-Regular';
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: #363636;
+
+
+}
+.smallbox-par{
+    width: 100%;
+}
+.smallbox1{
+    margin:20px;
+    position: relative;
+    width: 311px;
+    height: 39px;
+    padding: 11px, 102px, 11px, 102px;
+    border-radius: 6px;
+    gap: 10px;
+    background: #4A9BF6;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.smallbox1 a{
+    width: 311px;
+}
+.smallbox2 a{
+    width: 311px;
+    height: 39px;
+}
+.small-text{
+    position: relative;
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #FFFFFF;
+    
+
+
+}
+.smallbox2{
+    position: relative;
+    width: 311px;
+    height: 39px;
+    border-radius: 6px;
+    border: 1px;
+    gap: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #363636;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.small-text2{
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #363636;
+}
+
+@media (max-width:767px) {
+
+    #return-header-top{
+        display: none;
+    }
+    .end-box{
+        right: 0;
+        margin-left: 5%;
+    }
+    .end-text{
+        font-family: 'Pretendard-Regular';
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 0;
+        margin-left: 5%;
+        
+    }
+    .semi-end-box{
+        margin-left: 15%;
+        margin-right: auto;
+    }
+    .semi-text{
+        font-family: 'Pretendard-Bold';
+        font-size: 20px;
+        text-align: center;
+
+        margin-top: -20px;
+    }
+    .smallbox-par{
+        margin-top: -40px;
+    }
+    .smallbox1, .smallbox2{
+        margin-left: 25%;
+    }
+    
+    
+}

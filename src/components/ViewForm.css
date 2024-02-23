@@ -1,0 +1,110 @@
+.ViewFormPar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+}
+.ViewFormTitle{
+    text-align: center;
+    font-family: 'Pretendard-Regular';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #002956;
+}
+.ViewFormEx{
+    text-align: center;
+    font-family: 'Pretendard-Regular';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #363636;
+}
+.ViewFormInputNum, .ViewFormInputPw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.ViewFormInput{
+    margin-top: 30px;
+}
+
+.ViewFormInputEx{
+    width: 80px;
+    text-align: right;
+    font-family: 'Pretendard-Regular';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+
+    color: #363636;
+
+    margin-right: 10px;
+
+}
+#ViewStudentInput, #ViewPasswordInput{
+    width: 230px !important;
+    height: 30px !important;
+
+    border: 1px solid #D6D6D6;
+    border-radius: 6px !important;
+    font-family: 'Pretendard-Regular';
+}
+.ViewFormButton{
+    width: 335px;
+    height: 40px;
+    padding: 11px, 102px, 12px, 102px;
+    border-radius: 6px;
+    gap: 10px;
+
+    background-color: #4A9BF6;
+    border: 0px;
+
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: white;
+
+    margin: auto;
+
+    margin-top: 10px;
+}
+.ViewFormButtonPar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.header-top{
+    border-bottom: 1px solid #D6D6D6;
+}
+
+@media (max-width:767px){
+    #ViewHeader{
+        display: none;
+    }
+    .ViewFormPar{
+        padding-top: 45%;
+    }
+    .ViewFormTitle{
+        font-size: 24px;
+    }
+    .ViewFormEx{
+        font-size: 14px;
+    }
+    .ViewFormEx span::before{
+        content: '\A';
+        white-space: pre;
+    }
+    .ViewFormInput span{
+        font-size: 16px;
+    }
+}

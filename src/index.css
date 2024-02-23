@@ -1,0 +1,748 @@
+/* font-family: 'Montserrat', sans-serif; */
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+a{
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+body{
+  margin: 0px;
+}
+
+.unselectable {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Header-Top CSS */
+
+.header-top{
+  position: absolute;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  z-index: 1001;
+}
+.header-top-logo img{
+  width: 25%;
+}
+.header-top-menu span{
+  font-family: 'Pretendard-Regular';
+  font-weight: 700;
+  color: #002956;
+  font-size: 20px;
+
+  margin-right: 50px;
+}
+.AboutButton:hover, .RecruitHistoryButton:hover{
+  cursor: pointer;
+}
+
+/* Header-Main CSS */
+.header-main{
+  height: 1050px;
+  position: relative;
+  background:center/70% url(/Main\ icon\ Group.png),
+    linear-gradient( to right, #002956 10%, #001b38 30%, #001b38 60%, #002956 90%);
+    background-size: cover;
+  text-align: center;
+}
+.header-main-des{
+  margin:auto;
+}
+.slogan-main{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 80px;
+  margin: 0px;
+  padding-top: 20%;
+}
+.slogan-sub{
+  font-family: 'Pretendard-Regular';
+  font-weight: 700;
+  color: white;
+  font-size: 26px;
+  margin: 15px;
+}
+.apply-button{
+  font-family: 'Pretendard-Regular';
+  font-weight: 700;
+  color: #002956;
+  font-size: 24px;
+
+  width: 256px;
+  height: 62px;
+  border-radius: 6px;
+
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: auto;
+  margin-top: 75px;
+  margin-bottom:-5%;
+}
+.header-window-mobile{
+  display: none;
+}
+.header-main-img{
+  position: relative;
+}
+.header-main-img{
+  z-index: 999;
+  /* z-index를 무시하고 겹쳐있는 영역을 클릭했을때 뒤에 있는 click 이벤트 반응하게 하기 */
+	pointer-events: none; 
+  /* HTML 요소에 정의된 이벤트( click, hover, drag, active...등 )를 비활성화한다. */
+}
+.header-main-img .Cursor{
+  width: 85px !important;
+  transform: translate(200%, 110%) !important;
+
+  z-index: 999;
+  /* z-index를 무시하고 겹쳐있는 영역을 클릭했을때 뒤에 있는 click 이벤트 반응하게 하기 */
+	pointer-events: none; 
+  /* HTML 요소에 정의된 이벤트( click, hover, drag, active...등 )를 비활성화한다. */
+
+}
+a:visited{
+  text-decoration: none;
+}
+a:link { 
+  text-decoration: none; 
+}
+.header-footer-wrap{
+  min-height: 100%;
+  position: relative;
+  background-color: white;
+  width: 100%;
+}
+.header-footer{
+  width: 100%;
+  bottom: 0px;
+  position: absolute;
+  height: 7rem;
+  background: white;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+
+  z-index: 1000;
+}
+/* Track-Info CSS */
+.Track-Info{
+  margin-top: -5%;
+}
+.Track-Info-Top{
+  text-align: center;
+  font-size: 26px;
+  font-family: 'Pretendard-Bold';
+  color: #002956;
+  font-weight: 700;
+  top:500px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 3%;
+}
+
+.Track-Info-Main{
+  display: flex;
+  justify-content: center;
+}
+.Track-Box{
+  width: 385px;
+  height: 490px;
+  box-shadow: 4px 4px 10px 0px #0000001A;
+  border-radius: 10px;
+  margin: 20px;
+  margin-top: 500px;
+}
+.Track-Box-Img{
+  width:100%;
+  height: 290px;
+  display: flex;
+  justify-content: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.Track-Box-Img img{
+  width: 80%;
+  margin: auto;
+}
+#front{
+  background-color: #2E549E;
+}
+#uiux{
+  background-color: #0F1B2D;
+}
+#uiux img{
+  margin-right: 50px;
+}
+#back{
+  background-color: #0E404B;
+}
+.Track-Box-Detail{
+  padding: 20px;
+  padding-top: 15px;
+}
+.Track-Box-Detail-Title{
+  font-family: 'Pretendard-Regular';
+  font-size: 24.5px;
+  font-weight: 700;
+  text-align: left;
+  color: #002956;
+  margin:0;
+  margin-bottom: 5px;
+}
+.Track-Box-Detail-Ex{
+  font-family: 'Pretendard-Regular';
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+
+  margin: 0;
+}
+.TrackInfoButton{
+  display: none;
+}
+
+/* Activity CSS */
+.Activity{
+  display: flex;
+  flex-direction: column;
+  width: 1120px;
+  margin: auto;
+}
+.Activity-Ex{
+  text-align: center;
+  font-family: 'Pretendard-Bold';
+  font-weight: 700;
+  font-size: 26px;
+  color: #002956;
+
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.Activity-Box{
+  width: 1180px;
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+.Activity-Box-Img{
+  width: 590px;
+  height: 290px;
+  background-color: gray;
+  border-radius: 10px;
+}
+.Activity-Box-Detail{   
+  padding: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.Activity-Box-Detail-Title{
+  font-family: 'Pretendard-Bold';
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  text-align: left;
+  color: #363636;
+
+  margin-bottom: 30px;
+}
+.Activity-Box-Detail-Title span{
+  color: #4A9BF6;
+}
+.Activity-Box-Detail-Ex{
+  font-family: 'Pretendard-Regular';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #363636;
+
+  margin-bottom: 30px;
+}
+.Activity-Box-Detail-Schedule{
+  font-family: 'Pretendard-Regular';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Activity-Box-Detail-Schedule span{
+  font-weight: 700;
+  margin-right: 5px;
+}
+.Activity-Box-Detail-Schedule p{
+  margin: 5px;
+  margin-left: 0px;
+}
+.activity-notice{
+  margin-top: 20px !important;
+}
+#regular-session{
+  background: url(/정기\ 세션\ 이미지.png);
+  background-size: cover;
+}
+#idea-thon{
+  background: url(/아이디어톤\ 이미지.png);
+  background-size: cover;
+}
+#hackerthon{
+  background: url(/전국\ 연합\ 해커톤\ 이미지.png);
+  background-size: cover;
+}
+#univ-hackerthon{
+  background: url(/대학\ 연합\ 해커톤&세션\ 이미지.png);
+  background-size: cover;
+}
+#competition{
+  background: url(/공모전\ 이미지.png);
+  background-size: cover;
+}
+#demoday{
+  background: url(/데모데이\ 이미지.png);
+  background-size: cover;
+}
+/* FAQ CSS */
+.FAQ-Title{
+  
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 37px;
+  text-align: center;
+  color: #4A9BF6;
+  top:200px;
+  
+}
+.FAQ-Subtitle{
+  font-family: 'Pretendard-Bold' !important;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #363636;
+
+  margin: 0px;
+}
+.FAQ-par{
+  height: 1300px;
+}
+.FAQ{
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+  font-family: 'Pretendard-Bold';
+  font-weight: 500;
+  margin-top:75px;
+}
+.qna-box{
+  margin-bottom: 15px;
+}
+.Accordian_wrap *{
+  box-sizing: border-box; 
+}
+.que{
+  position: relative;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 19px;
+  line-height: 24px;
+  border: 1px solid #D6D6D6;
+  border-radius: 6px;
+  color: #363636;
+}
+.que::before{
+  display: inline-block;
+  font-size: 19px;
+  line-height: 24px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.que.on{
+  background-color: #4A9BF6;
+  border: 1px solid #4A9BF6;
+  border-top-left-radius: 6px; 
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.que.on>span, .arrow-top{
+  color: #FFFFFF;
+}
+.anw {
+  margin-top: -1px;
+  display: none;
+  overflow: hidden;
+  font-size: 17px;
+  line-height: 21px;
+  background-color: white;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border: 1px solid #4A9BF6;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  height: auto;
+}
+.anw::before {
+  display: inline-block;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000;
+  margin: 0 5px;
+}
+.arrow-wrap {
+  position: absolute;
+  top:50%; right: 10px;
+  transform: translate(0, -50%);
+}
+.que .arrow-top {
+  display: none;
+}
+.que .arrow-bottom {
+  display: block;
+  font-family: 'Pretendard-Regular';
+  color: #bebebe;
+  font-weight: 100;
+}
+.que.on .arrow-bottom {
+  display: none;
+}
+.que.on .arrow-top {
+  display: block;
+  
+}
+
+/* 모바일  */
+@media (max-width:767px){
+  body{
+      margin: 0px;
+  }
+  .header-top{
+  
+      position: fixed;
+      background-color: white;
+      height: 50px;
+      z-index: 1001;
+  }
+  .header-top-logo{
+    margin-right: 30px;
+    margin-left: 10px;
+  }
+  .header-top-logo img{
+      width: 100px;
+      margin-left: 10px;
+      margin-right: 5px;
+  }
+  .header-top-menu span{
+      font-size: 13px;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  .header-top-menu{
+      display: flex;
+      align-items: center;
+  }
+  .header-top-menu a{
+    display:flex;
+    align-items: baseline;
+  }
+  .header-main{
+      width: 100%;
+      height: 900px;
+      background: url(/모바일\ icon\ Group.png),
+      linear-gradient( to right, #002956 10%, #001b38 40%, #001b38 50%, #002956 90%);
+      background-size: cover;
+      
+  }
+  .header-main-des{
+    padding-top: 120px;
+  }
+  .slogan-main span{
+      display: block;
+  }
+  .slogan-main, .slogan-main span{
+      text-align: center;
+      font-size: 60px;
+      font-weight: 600;
+      line-height: 65px;
+  }
+  .slogan-sub{
+      font-size: 18px;
+      font-weight: 700;
+      margin-top: 20px;
+      font-weight: 700;
+  }
+  .apply-button{
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+  }
+  .apply-button p{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .header-img{
+      width: 100%;
+  }
+  .header-lion{
+      width: 100%;
+      margin-top: -70px;
+  }
+  .header-window{ 
+      display: none;
+  }
+  .header-main-img{
+      display:none;
+  }
+  .header-footer-wrap{
+    min-height: 100%;
+    position: relative;
+    background-color: white;
+    width: 100%;
+    }
+    .header-footer{
+      width: 100%;
+    bottom: 0px;
+    position: absolute;
+    height: 5rem;
+    background: white;
+    border-top-left-radius:30px;
+    border-top-right-radius: 30px;
+    }
+
+  /* Track-Info */
+    /* Track-Info */
+    .Track-Info-Top{
+      display:none
+  }
+  .Track-Info{
+    margin-top: 100px !important;
+    overflow-x: hidden;
+  }
+  .Track-Info-Top-Mobile{
+      font-family: 'Pretendard-Bold';
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+      
+      margin-top: 10%;
+      margin-left: 10%;
+      
+  }
+  .Track-Info-Top-Mobile p::before{
+      content:"멋쟁이사자처럼 삼육대학교에서\A 세분화된 트랙별 교육으로 함께 성장해요!";
+      white-space: pre;
+      font-weight: bolder;
+      line-height: 25px;
+      color: #002956;
+  }
+  .Track-Info-Main{
+      width: 300vw;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 10%;
+      transform: translateX(-100vw);
+      transition: all 0.5s;
+  }
+  .Track-Box{
+      width: 280px;
+      height: 425px;
+      margin: 15px;
+  }
+  .Track-Box-Detail{
+      width: 95%;
+      padding: 10px;
+  }
+  .Track-Box-Detail-Title{
+      margin-bottom: 10px;
+  }
+  .Track-Box-Detail-Ex span::before{
+    content: "\A";
+    white-space: pre;
+  }
+  .Track-Box-Img{
+      width: 100%;
+      height: 250px;
+  }
+  .Track-Box-Detail-Ex{
+      font-size: 14px;
+      line-height: 22px;
+      margin: 5px;
+      margin-left: 0;
+  }
+  .Track-br{
+    display: none;
+  }
+  .TrackInfoButton{
+    display: flex;
+    justify-content: center;
+  }
+  .TrackInfoButton button{
+    font-family: 'Pretendard-Regular';
+    font-weight: 700;
+    width: 35px;
+    height: 40px;
+    font-size: 28px;
+    border:1px solid #002956;
+    color: #002956;
+    background: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 16px;
+    text-align: center;
+  }
+  .curpos{
+    display:flex;
+    align-items: center;
+  }
+  #curpos1{
+    color: #D6D6D6;
+  }
+  #curpos2{
+    color: #4A9BF6;
+  }
+  #curpos3{
+    color: #D6D6D6;
+  }
+
+  .Activity-Ex{
+      display: none;
+  }
+  .Acctivity{
+    margin-top: 50px;
+  }
+  .Activity-Ex-Mobile{
+      width: 320px;
+      font-family: 'Pretendard-Bold';
+      font-size: 21px;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin:auto;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      height: 100px;
+  }
+  .Activity-Ex-Mobile::before{
+    font-family: 'Pretendard-Bold';
+      content:"12기 아기사자들과 함께할 활동들이 \A 기다리고 있어요!";
+      white-space: pre;
+      font-weight: bolder;
+      color: #002956;
+      line-height: 25px;
+      margin: auto;
+  }
+  .Activity{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      font-size: 70%;
+  }
+  .Activity-Box{
+      height: auto;
+      margin-bottom: 20px;
+  }
+  .Activity-Box-Detail{
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0;
+      padding: 0;
+      text-align: left;
+      margin-bottom: 0;
+  }
+  .Activity-Box-Detail-Title{
+    font-family: 'Pretendard-Bold';
+      margin-bottom: 5px;
+      font-size: 22px;
+  }
+  .Activity-Box-Img{
+      margin: auto;
+      width: 320px;
+      height: 180px;
+      margin-bottom: 10px;
+      margin-top: 20px;
+  }
+  .Activity-Box-Detail-Ex{
+      font-size: 16px;
+      margin-bottom: 5px;
+  }
+  .Activity-Box-Detail-Schedule{
+      font-size: 16px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .Activity-Box-Detail-Schedule p{
+    margin-right: 25px;
+  }
+  #Activity-Box-A{
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: flex-start;
+      margin-top: -20%;
+  }
+  #Activity-Box-B{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-bottom: 100px;
+  }
+  .FAQ-par{
+    margin-top: 300px;
+    height: 1550px;
+  }
+  .FAQBR::before{
+    content: "\A";
+    white-space: pre;
+  }
+  .FAQ-Title{
+      margin-top: 500px;
+  }
+  .FAQ{
+      width: 90%;
+  }
+  .FAQ span{
+      font-size: 16px;
+  }
+}

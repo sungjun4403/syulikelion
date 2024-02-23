@@ -1,0 +1,303 @@
+.beneift-container {
+    position: relative;
+    width: 100%;
+    height: 676px;
+    top:50px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.headbox {
+    height: 66px;
+    top: 66px;
+    text-align: center;
+}
+
+.headline {
+    font-family: 'Pretendard-Bold';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #002956;
+}
+
+.beneift-container .text{
+    font-family: 'Pretendard-Regular';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-left: 10px;
+    color: #363636;
+}
+
+.box-par{
+    display:flex;
+    flex-direction: row;
+}
+.top-ben-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-ben-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.bene-box1-1, .bene-box1-2, .bene-box1-3, .bene-box1-4{
+   
+    width: 305px;
+    height: 195px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 15.5px 0px #00000026;
+    margin: 10px;
+    padding: 1%;
+}
+.bene-box2, .bene-box2-1{
+    width: 225px;
+    height: 195px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 15.5px 0px #00000026;
+    margin: 10px;
+    padding: 1%;
+}
+.bene-box3{
+    width: 225px;
+    height: 95%;
+    border-radius: 18px;
+    box-shadow: 0px 0px 15.5px 0px #00000026;
+    margin: 10px;
+    padding: 1%;
+}
+.bene-img-box{
+    display:flex;
+    
+}
+.bene-box1-1 .bene-img-box{
+    position: relative;
+    left: 180px;
+    bottom:20px;
+}
+.bene-box1-2 .bene-img-box{
+    position: relative;
+    left: 180px;
+}
+.bene-box1-3 .bene-img-box{
+    position: relative;
+    left: 180px;
+}
+.bene-box1-4 .bene-img-box{
+    position: relative;
+    left: 180px;
+    bottom:15px;
+}
+
+
+.bene-box2 .bene-img-box{
+    position: relative;
+    left: 120px;
+    bottom:0px;
+}
+.bene-box2-1 .bene-img-box{
+    position: relative;
+    left: 100px;
+    bottom:25px;
+}
+.bene-box3 .bene-img-box{
+    position: relative;
+    left:25%;
+    bottom:25px;
+}
+
+
+.text5-box{
+    margin-bottom: 55px;
+}
+
+.text4-box{
+    margin-bottom: 230px;
+}
+
+.bene-box3 .img-box{
+    margin: auto;
+}
+
+.beneift-container .sub-text{
+    font-family: 'Pretendard-Regular';
+font-size: 14px;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+margin:1px;
+
+}
+
+
+@media(max-width: 767px) {
+    
+    .beneift-container{
+        top:10px;
+        display: flex;
+        flex-direction: column; 
+        margin-top: -100px;
+    
+    }
+    .headbox {
+        top:20px;
+        position: relative;
+        width: 230px;
+        height: 41px;
+        text-align: left;
+        left: 20px;
+        
+    }
+    
+    .headline {
+        font-family:'Pretendard-Bold';
+        font-size: 16px;
+        font-weight: 700;
+        text-align: left;
+        line-height: 19px;
+        letter-spacing: 0em;
+        color: #002956;
+    }
+
+    .box-par {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center; 
+    }
+    .row-box {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .top-ben-box {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 48%; /* 좌우 여백 고려한 너비 설정 */
+    }
+
+    .bottom-ben-box {
+        position: relative;
+        flex-direction: column;
+        width: 48%; /* 좌우 여백 고려한 너비 설정 */
+    }
+
+    .bene-box1-1, .bene-box1-2, .bene-box1-3, .bene-box1-4, .bene-box2, .bene-box2-1 {
+        position: relative;
+        width: 152px;
+        height: 104px;
+        border-radius: 10px;
+
+    }
+
+
+    .col-box {
+        display: flex;
+        flex-direction: column; /* 세로로 정렬 */
+        align-items: center; /* 세로 가운데 정렬 */
+        justify-content: center; /* 가로 가운데 정렬 */
+    }
+
+    .bene-box3 {
+        position: relative;
+        width: 318px;
+        height: 80px;
+        border-radius: 10px;
+    }
+    
+    .bene-img-box {
+        position: absolute;
+        left: 100px;
+        bottom:15px;
+        width: 36px;
+        height: 36px;
+    }
+    
+
+    .bene-box1-1 .bene-img-box{
+        position: relative;
+        left: 100px;
+        bottom:10px;
+    }
+
+    .bene-box1-2 .bene-img-box{
+        position: relative;
+        left: 100px;
+        bottom:0px;
+    }
+
+    .bene-box1-3 .bene-img-box{
+        position: relative;
+        left: 100px;
+        bottom:0px;
+    }
+    .bene-box1-4 .bene-img-box{
+        position: relative;
+        left: 100px;
+        bottom:0px;
+    }
+
+    .bene-box2-1 .bene-img-box{
+        position: relative;
+        left: 100px;
+        bottom:30px;
+    }
+
+    .bene-box2 .bene-img-box{
+        position: relative;
+        left: 100px;
+        bottom:10px;
+    }
+
+    .col-box .bene-img-box {
+        position: absolute;
+        left: 280px;
+        width: 36px;
+        bottom:30px;
+        height: 36px;
+    }
+    .bene-img-box img {
+        margin-right: 5%;
+    }
+
+    .bene-img-box img{
+        margin-right: 5%;
+        }
+
+    
+    .beneift-container .text{
+        font-family: 'Pretendard-Regular';
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 10px;
+        color: #363636;
+    }
+
+    .beneift-container .sub-text{
+        margin:1px;
+        font-family: 'Pretendard-Regular';
+        font-size: 8px;
+        font-weight: 600;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+}

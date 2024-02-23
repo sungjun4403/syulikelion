@@ -1,0 +1,366 @@
+/* font-family: 'Montserrat', sans-serif; */
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  margin: 0px;
+}
+
+
+.header-top{
+  height: 70px;
+  background-color: white;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-top-logo{
+  margin-right: 50px;
+}
+.header-top-menu span{
+  font-family: 'Pretendard-Regular';
+  font-weight: 700;
+  color: #002956;
+  font-size: 20px;
+
+  margin-right: 50px;
+}
+
+/* recurit */
+.recruit-main{
+  width: 100%;
+  height: 550px;
+  /* background: linear-gradient( to right, #002956 10%, #001b38 40%, #001b38 50%, #002956 90%);
+   */
+   background: url(https://cdn.discordapp.com/attachments/378857875369492480/1203692710402465852/icon_Group.png?ex=65d20531&is=65bf9031&hm=4cc394b5662339d15d68e91203b67522b77ba989f04c304d200c347cac2720e4&),
+  linear-gradient( to right, #002956 10%, #001b38 40%, #001b38 50%, #002956 90%);
+  background-size: cover;
+}
+.recruit-main-title p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  margin: 0;
+  
+  padding-top: 5%;
+}
+.recruit-main-countdown p{
+  font-family: 'Pretendard-Regular';
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+
+  margin-top: 3%;
+  margin-bottom: 0;
+}
+.recruit-main-countdown #timer{
+  font-family: 'Pretendard-Regular';
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  
+}
+.recruit-button{
+  width: 280px;
+  height: 62px;
+  border-radius: 6px;
+  background-color: white;
+
+  font-family: 'Pretendard-Regular';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  margin: auto;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 2%;
+}
+.recruit-button span{
+  margin: auto;
+}
+
+/* we-wait */
+.we-wait-top{
+  font-family: 'Pretendard-Regular';
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  margin-top: 5%;
+}
+.we-wait-box{
+  width: 210px;
+  height: 120px;
+  border-radius: 10px;
+  border: 1.4px solid #D6D6D6;
+  padding: 20px;
+
+  display: inline-block;
+
+  margin: 10px;
+}
+.we-wait-box-num{
+  font-family: 'Pretendard-Regular';
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4A9BF6;
+
+  margin: 0;
+}
+.we-wait-box-content{
+  font-family: 'Pretendard-Regular';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #363636;
+  margin-bottom: 0;
+
+  margin-top: 25px;
+}
+.we-wait-box-par{
+  margin: auto;
+  margin-top:50px;
+  width: 830px;
+}
+
+/* FAQ CSS */
+.FAQ-Title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 37px;
+  text-align: center;
+  color: #4A9BF6;
+
+  margin: 10px;
+  margin-top: 100px;
+}
+.FAQ-Subtitle{
+  font-family: 'Pretendard-Regular';
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #363636;
+
+  margin: 0px;
+}
+.FAQ{
+  width: 1000px;
+  height: 800px;
+  margin: auto;
+  font-family: 'Pretendard-Regular';
+  font-weight: 500;
+  margin-top:75px;
+}
+.qna-box{
+  margin-bottom: 15px;
+}
+.Accordian_wrap *{
+  box-sizing: border-box; 
+}
+.arrow-bottom{
+  color: #D6D6D6;
+}
+.que{
+  position: relative;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 19px;
+  line-height: 24px;
+  border: 1px solid #D6D6D6;
+  border-radius: 6px;
+  color: #363636;
+}
+.que::before{
+  display: inline-block;
+  font-size: 19px;
+  line-height: 24px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.que.on{
+  background-color: #4A9BF6;
+  border: 1px solid #4A9BF6;
+  border-top-left-radius: 6px; 
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.que.on>span, .arrow-top{
+  color: #FFFFFF;
+}
+.anw {
+  margin-top: -1px;
+  display: none;
+  overflow: hidden;
+  font-size: 17px;
+  line-height: 21px;
+  background-color: white;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border: 1px solid #4A9BF6;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.anw::before {
+  display: inline-block;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000;
+  margin: 0 5px;
+}
+.arrow-wrap {
+  position: absolute;
+  top:50%; right: 10px;
+  transform: translate(0, -50%);
+}
+.que .arrow-top {
+  display: none;
+}
+.que .arrow-bottom {
+  display: block;
+}
+.que.on .arrow-bottom {
+  display: none;
+}
+.que.on .arrow-top {
+  display: block; 
+}
+
+@media (max-width:767px){
+  /* recruit-main */
+  .header-top-main{
+    display: flex;
+    align-items: center;
+  }
+  .header-top-logo img{
+    width: 100px;
+  }
+  .header-top-menu span{
+    font-size: 14px;
+    margin-right: 20px;
+  }
+  .recruit-main{
+      height: 350px;
+      background: url(https://cdn.discordapp.com/attachments/378857875369492480/1203693735008010300/icon_Group.png?ex=65d20625&is=65bf9125&hm=8619b9ac01b77c5c5389f18b70a50a19803daff272fca720041d7bcc42d39ff3&),
+      linear-gradient( to right, #002956 10%, #001b38 40%, #001b38 50%, #002956 90%);
+      background-size: cover;
+  }
+  .recruit-main-title {
+      padding-top: 50px;
+  }
+  .recruit-main-title p{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 26px;
+      font-weight: 600;
+      line-height: 29px;
+      letter-spacing: 0em;
+      text-align: center;
+  }
+  .recruit-main-countdown p{
+      font-size: 18px;
+      margin-top: 40px;
+  }
+  #timer div{
+      font-size:55px;
+      line-height: 50px;
+  }
+  .recruit-button{
+      width: 150px;
+      height: 40px;
+      font-size: 18px;
+
+      margin-top: 40px;
+  }
+
+  /* we-wait-box */
+  .we-wait-top{
+      font-size: 18px;
+      margin-top: 40px;
+  }
+  .we-wait-box-par{
+      margin-top: 30px;
+      width: 100%;
+      display:flex;
+      justify-content: center;
+  }
+  .we-wait-box-par-sub{
+      width: 350px;
+  }
+  .we-wait-box{
+      width: 150px;
+      height: 100px;
+      padding: 10px;
+
+      margin: 0;
+      margin-bottom: 10px;
+  }
+  .we-wait-box-content{
+      margin-top: 0px;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 14px;
+      letter-spacing: 0em;
+      text-align: left;
+  }
+  .br::before{
+      content: "\A";
+      white-space: pre;
+  }
+  .br2::after{
+      content: "\A\A";
+      white-space: pre;
+  }
+  #we-wait-right{
+    float: right;
+  }
+  /* FAQ */
+  .FAQ-Title{
+      margin-top: 40px;
+  }
+  .FAQ{
+      width: 90%;
+  }
+  .FAQ span{
+      font-size: 16px;
+  }
+}

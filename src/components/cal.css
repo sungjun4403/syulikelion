@@ -1,0 +1,156 @@
+.cal-box {
+    position: relative;
+    width: 1536px;
+    height: 751px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    top: 400px; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.cal2-box{
+    display: none;
+}
+.cal-head{
+    display: none;
+}
+.mo-calen{
+    display: none;
+}
+.cal-box img {
+    width: 70%;
+    margin-top: -200px;
+}
+.cal-t-box{
+    display: none;
+}
+
+.cal-text1{
+font-family: 'Pretendard-Bold' !important;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: center;
+color: #002956;
+
+
+
+}
+@media (max-width: 767px){
+
+    .cal-box{
+        display: none;
+    }
+    
+    .cal-container{
+        position: relative;
+        top:5px;
+    }
+
+    .cal-mo {
+        top:100px;
+        margin: 40px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+
+    .cal-head {
+        display: block; 
+        width: 200px;
+        height: 41px;
+        margin-right: auto;
+        margin-left: 15px;
+    }
+
+    .cal-text {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #002956;
+
+    }
+    .cal-text1 span::before{
+        content: '\A';
+        white-space: pre;
+    }
+    .cal-mo1 {
+        display: none;
+    }
+    .cal-head1{
+        display: none;
+    }
+    .cal-text1{
+        display: none;
+    }
+    .cal2-box {
+        display: block; /* Display the cal2-box component */
+        position: relative;
+        width: 310px;
+        height: 252px;
+        margin-top: 20px; /* Adjust the margin-top as needed */
+    }
+
+    .cal2-box img {
+        width: 100%; /* Make the image responsive */
+        height: 100%;
+    }
+
+    .cal-t-box {
+        display: block;
+        margin-right: auto;
+        margin-left: 15px;
+    }
+
+
+    .mo-calen{
+        margin-top:10px;
+        display: flex;
+        text-align: left;
+        flex-direction: column; 
+        margin-right: 180px;
+    }
+
+    .c1 img{
+        position: relative;
+        width: 116px;
+        height:30px;
+        margin-top:20px;
+
+    }
+    .c2 img{
+        position: relative;
+        width: 90px;
+        height:30px;
+        margin-top:20px;
+        margin-bottom:10px;
+
+    }
+    .c3 img{
+        position: relative;
+        width: 116px;
+        height:30px;
+        margin-top:10px;
+
+    }
+    .c4 img{
+        position: relative;
+        width: 101px;
+        height:30px;
+        margin-top:10px;
+        
+
+    }
+    
+
+
+}
